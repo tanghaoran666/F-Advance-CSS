@@ -1,0 +1,58 @@
+body {
+  font-family: "Fix for Mac Chrome 80", system-ui, -apple-system,
+    BlinkMacSystemFont, ".SFNSText-Regular", sans-serif;
+  background-color: white;
+}
+
+.header {
+  background-color: black;
+  color: #e9ebee;
+}
+ul {
+  list-style: none;
+  padding: 0;
+}
+.header ul {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 50px;
+}
+
+.content {
+  display: flex;
+  justify-content: space-between;
+  margin: 10px 40px;
+}
+
+aside {
+  width: 20%;
+}
+
+.about {
+  background: #e9ebee;
+  padding: 15px;
+}
+
+.link {
+  color: blueviolet;
+}
+
+.archives {
+  padding: 15px;
+}
+
+.articles {
+  width: 50%;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+}
+
+.article {
+  width: 40%;
+  border: 2px red solid;
+}
+.sign-in {
+  width: 25%;
+}
