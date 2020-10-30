@@ -46,20 +46,39 @@ nav {
   padding: 15px;
 }
 
-.content {
+.articles {
   width: 70%;
   display: flex;
   margin: 0 30px;
+  flex-flow: column wrap;
+  align-content: space-between;
+  height: 700px;
 }
 
-.articles {
+/* .articles {
   width: 50%;
   margin: 0 10px;
-}
+} */
 
 .article {
   border: 3px #e9ebee solid;
-  margin-bottom: 25px;
+  margin: 0 8px 25px 8px;
+  width: 48%;
+}
+
+.article:nth-child(2n + 1) {
+  order: 1;
+}
+.article:nth-child(2n + 2) {
+  order: 2;
+}
+
+.content::before,
+.content::after {
+  content: "";
+  flex-basis: 100%;
+  width: 0;
+  order: 2;
 }
 
 img {
