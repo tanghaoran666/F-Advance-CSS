@@ -29,7 +29,7 @@ main {
   margin: 25px;
 }
 
-nav {
+aside-l {
   width: 14%;
 }
 
@@ -102,7 +102,7 @@ img {
   border-radius: 4px;
 }
 
-aside {
+aside-r {
   display: flex;
   justify-content: flex-end;
   align-items: center;
